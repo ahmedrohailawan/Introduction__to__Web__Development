@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+.heading{
+    color: #106476;
+    text-align: center;
+    font-size: 48px;
+    font-family: "Inter";
+}
+.remaining-heading{
+    color: white;
+    font-size: 48px;
+    background-color:#106476;
+    padding: 10px;
+    border-radius: 10px;
+}
+.boxses{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 30px;
+    padding: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.boxses .box{
+    border: 1px solid #d6d6d6;
+    padding: 10px;
+    border-radius: 6px;
+}
+.boxses .box .img{
+    display: flex;
+    margin: auto;
+}
+.boxses .box img{
+    width: 353px;
+    height: 235px;
+    border-radius: 10px;
+    margin: auto;
+}
+.boxses .box .content{
+    margin: 15px;
+    font-family: "Inter";
+}
+.boxses .box .content h1{
+    color: #202020;
+    font-size: 24px;
+}
+.boxses .box .content .text{
+    color: #828282;
+    font-size: 16px;
+}
+.boxses .box .content .location{
+    color: #9b9b9b;
+    font-size: 14px;
+    text-align: right;
+}
